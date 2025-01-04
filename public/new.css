@@ -1,0 +1,159 @@
+
+
+.herosectio {
+    margin-top: 9%;
+}
+@media (min-width:1414px) {
+    .banner-bg-pre{
+        height: 750px;
+    }
+    
+}
+/* Media Queries */
+@media (min-width: 1213px) {
+    .sir-banner-btn {
+        left: 50%;
+    }
+}
+
+@media (max-width: 1213px) {
+    .sir_banner_image img {
+        position: absolute;
+        right: 7%;
+        top: 107px;
+        width: 333px;
+    }
+
+    .sir-banner-btn {
+        position: absolute;
+        right: 3%;
+        gap: 30px;
+        display: flex;
+        bottom: 1%;
+    }
+}
+
+@media (max-width: 1034px) {
+    .banner-section,
+    .right-banner {
+        margin-left: 0px;
+    }
+
+    .right-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sir_banner_image img {
+        position: absolute;
+        right: 1% !important;
+        top: 107px;
+        width: 270px;
+    }
+
+    .sir-banner-btn {
+        position: absolute;
+        right: 2%;
+        gap: 30px;
+        display: flex;
+        bottom: 1%;
+    }
+
+    .banner-bg-pre {
+        width: calc(40% - 34px);
+    }
+
+    ul {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .banner-section,
+    .right-banner {
+        margin-left: 0px;
+    }
+
+    .right-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sir_banner_image img {
+        position: absolute;
+        right: 1% !important;
+        top: 107px;
+        width: 303px !important;
+    }
+
+    .sir-banner-btn {
+        position: absolute;
+        right: 2%;
+        gap: 30px;
+        display: flex;
+        bottom: 1%;
+    }
+
+    .banner-bg-pre {
+        width: calc(40% - 34px);
+    }
+
+    .herosectio {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 837px) {
+    .banner-bg-pre,
+    .sir-banner-btn,
+    .sir_banner_image {
+        display: none;
+    }
+
+    .banner-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .herosectio {
+        margin-top: 13%;
+    }
+}
+
+@media (max-width: 494px) {
+    .herosectio {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 460px) {
+    .btn1,
+    .BTN2 {
+        width: 153px;
+    }
+
+    .herosectio {
+        margin-top: 17%;
+    }
+}
+
+@media (max-width: 369px) {
+    .btn1,
+    .BTN2 {
+        width: 123px;
+        font-size: 13px;
+    }
+
+    .herosectio {
+        margin-top: 22%;
+    }
+}
+
+@media (max-width: 310px) {
+    .btn1,
+    .BTN2 {
+        width: 103px;
+        font-size: 10px;
+    }
+}
