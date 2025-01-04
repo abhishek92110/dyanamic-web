@@ -1,0 +1,25 @@
+{
+    "name": "dynamic-content-server",
+    "version": "1.0.0",
+    "description": "A server to serve static and dynamic content for a website.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "express",
+      "static-files",
+      "dynamic-content",
+      "data-science",
+      "city-specific-content"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "mongoose": "^7.0.0",
+      "path": "^0.12.7"
+    }
+  }
+  
