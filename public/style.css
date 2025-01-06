@@ -1730,7 +1730,9 @@ h1 {
 
 @media (max-width: 768px) {
   .form-benefits-container {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+    display: flex;
+    flex-direction: column-reverse !important;
   }
 }
 
@@ -2061,4 +2063,72 @@ body {
   .privacy-table{
       flex-direction: column-reverse;
   }
+}
+
+.career-service{
+display: flex;
+column-gap: 30px;
+}
+
+.left-career-section{
+display: grid;
+grid-template-columns: auto auto;
+column-gap: 30px;
+}
+
+.service-card{
+height: fit-content;
+display: flex;
+column-gap: 10px;
+align-items: center;
+}
+
+.career-service-container h2{
+margin: 20px 0 ;
+}
+
+@media  screen and (max-width:1070px) {
+
+.right-career-section{
+  display: none !important;
+}
+
+.left-career-section{
+  row-gap: 20px;
+  width: 100%;
+}
+
+.service-card{
+  padding: 15px 5px !important;
+}
+
+
+}
+
+.service-card img{
+height: 30px;
+width: 30px;
+}
+
+.career-counsellor-banner-image{
+width: 100%;
+height: 100%;
+}
+
+@media screen and (max-width:595px){
+.left-career-section{
+  display: flex;
+  flex-direction: column;
+}
+.benefits{
+  display: flex;
+}
+}
+
+#header .container-fluid{
+  justify-content: center !important;
+}
+
+bi-chevron-down::before {
+  content: "\f282";
 }

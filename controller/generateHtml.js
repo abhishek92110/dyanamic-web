@@ -11,6 +11,7 @@ function generateHTML(heading, city) {
     <link rel="stylesheet" href="/new.css">
     <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/main.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,9 +19,9 @@ function generateHTML(heading, city) {
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center">
     
-          <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <a href="/" class="logo d-flex align-items-center me-auto">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="/assets/img/logo.png" alt="">
+            <img src="//assets/img/logo.png" alt="">
             <a href="/"><h1 class="sitename">SkillIndia</h1></a>
           </a>
     
@@ -31,7 +32,7 @@ function generateHTML(heading, city) {
               <li><a href="/term-condition">Term&Condition</a></li>
               <li><a href="/privacy">Privacy Policy</a></li>
               <li><a href="#team">Team</a></li>
-              <li><a href="blog.html">Blog</a></li>
+              <li><a href="/placement">Placement</a></li>
               <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="#">Dropdown 1</a></li>
@@ -49,7 +50,7 @@ function generateHTML(heading, city) {
                   <li><a href="#">Dropdown 4</a></li>
                 </ul>
               </li>
-              <li class="listing-dropdown"><a href="#"><span>Listing Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="listing-dropdown"><a href="#"><span>Course</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li>
                     <a href="#">Column 1 link 1</a>
@@ -763,7 +764,7 @@ function generateHTML(heading, city) {
 
 
                             
-                            <footer><a href="#" class="linkedin-link">LinkedIn</a></footer>
+                            
                         </blockquote>
                         <div class="popup">
                             <div class="popup-content">
@@ -804,7 +805,7 @@ function generateHTML(heading, city) {
                                 vitae delectus dolor deleniti sed natus!...
                                 <a onclick="openPopup()" class="read-more">Read More</a>
                             </p>
-                            <footer><a href="#" class="linkedin-link">LinkedIn</a></footer>
+                            
                         </blockquote>
                         <div class="popup">
                             <div class="popup-content">
@@ -845,7 +846,7 @@ function generateHTML(heading, city) {
                                 vitae delectus dolor deleniti sed natus!...
                                 <a onclick="openPopup()" class="read-more">Read More</a>
                             </p>
-                            <footer><a href="#" class="linkedin-link">LinkedIn</a></footer>
+                            
                         </blockquote>
                         <div class="popup">
                             <div class="popup-content">
@@ -886,7 +887,7 @@ function generateHTML(heading, city) {
                                 vitae delectus dolor deleniti sed natus!...
                                 <a onclick="openPopup()" class="read-more">Read More</a>
                             </p>
-                            <footer><a href="#" class="linkedin-link">LinkedIn</a></footer>
+                            
                         </blockquote>
                         <div class="popup">
                             <div class="popup-content">
@@ -927,7 +928,7 @@ function generateHTML(heading, city) {
                                 vitae delectus dolor deleniti sed natus!...
                                 <a onclick="openPopup()" class="read-more">Read More</a>
                             </p>
-                            <footer><a href="#" class="linkedin-link">LinkedIn</a></footer>
+                            
                         </blockquote>
                         <div class="popup">
                             <div class="popup-content">
@@ -968,7 +969,7 @@ function generateHTML(heading, city) {
                                 vitae delectus dolor deleniti sed natus!...
                                 <a onclick="openPopup()" class="read-more">Read More</a>
                             </p>
-                            <footer><a href="#" class="linkedin-link">LinkedIn</a></footer>
+                            
                         </blockquote>
                         <div class="popup">
                             <div class="popup-content">
@@ -1118,7 +1119,7 @@ function generateHTML(heading, city) {
         <div class="container footer-top">
           <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
-              <a href="index.html" class="d-flex align-items-center">
+              <a href="/" class="d-flex align-items-center">
                 <span class="sitename">FlexStart</span>
               </a>
               <div class="footer-contact pt-3">
@@ -1132,10 +1133,10 @@ function generateHTML(heading, city) {
             <div class="col-lg-2 col-md-3 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/about">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/privacy">Privacy</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="/term-condition">Terms and Condition</a></li>
               </ul>
             </div>
     
